@@ -313,10 +313,12 @@ a:hover{
     }
 
     #conocenos{
-        font-size:large;
-        text-transform:uppercase;
+        font-size:large; 
         margin-left: 15%;
         margin-right: 15%;
+        padding: 5px 20px;
+        text-align: center;
+        text-transform:uppercase;
     }
 
     .nosotros{
@@ -460,9 +462,20 @@ a:hover{
     .imagen_cohete{
         display: none;
     } 
+
+    .spot iframe{
+        max-width: 80%;
+        height: auto;
+
+    }
     
     .web{
         padding: 45px 0px 45px 0px;
+    }
+
+    .frase{
+        width: 90%;
+        margin:0 auto;
     }
 
     .nosotros{
@@ -471,12 +484,17 @@ a:hover{
 
     #conocenos{
         text-transform:uppercase;
-        margin-left: 25%;
-        margin-right: 25%;
+        margin-left: 15%;
+        margin-right: 15%;
     }
 
     .destacados{
         padding: 45px 0px 45px 0px;
+    }
+
+    .destacados h1{
+        margin-right: 15%;
+        margin-left: 15%;
     }
 
     .pie{
