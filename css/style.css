@@ -26,12 +26,13 @@ h2{
 }
 
 .inicio{
-    margin: 0px 10px 0px 10px;
+    margin: 0px 20px 0px 20px;
 }
 .navbar{
     display: flex;
     flex-direction:row;
     align-items: center;
+    justify-content: space-between;
     flex-wrap:nowrap;
     background: #252525;
     color: #ffffff;
@@ -186,7 +187,7 @@ a:hover{
     display: flex;
     flex-direction:row-reverse;
     align-items:center;
-    justify-content:space-around;
+    justify-content:space-between;
     background: #252525;
     width: 100%;
     margin:0 auto;
@@ -197,12 +198,16 @@ a:hover{
 
 .rrss{
     display: inline-block;
+    margin-right: 20px;
 }
 
 .rrss i:hover{
     transform: scale(2);
 }
 
+.copy{
+    margin: 0 20px;
+}
 /* media queries */
 @media (max-width:320px){
 
